@@ -139,14 +139,26 @@ main {}
 						}
 							div.service-icon {
 								display: inline-block;
-								/*position: absolute;
-								top: 0;
-								left: 0;*/
 								width: 59px;
 								height: 59px;
 								background: transparent url(../img/icons-sprite.png) top left no-repeat;
 								float: left;
 							}
+								.services-row li:nth-child(2) div.service-icon {
+									background-position: -59px 0;
+								}
+								.services-row li:nth-child(3) div.service-icon {
+									background-position: -118px 0;
+								}
+								.services-row li:nth-child(4) div.service-icon {
+									background-position: 0 -59px;
+								}
+								.services-row li:nth-child(5) div.service-icon {
+									background-position: -59px -59px;
+								}
+								.services-row li:nth-child(6) div.service-icon {
+									background-position: -118px -59px;
+								}
 							div.service-info {
 								display: inline-block;
 								width: calc(100% - 79px);
