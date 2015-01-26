@@ -8,6 +8,31 @@ $(document).ready(function(){
 		// Then remove the "active" class from any siblings' <a> child
 		$(this).siblings().children("a").removeClass("active");
 	});
+
+	// Show all
+	$("#all").click(function(){
+		$('li[data-portfolio-project="web"]').removeClass("dim");
+		$('li[data-portfolio-project="graphic"]').removeClass("dim");
+		$('li[data-portfolio-project="art"]').removeClass("dim");
+	});
+	// Show all with data-portfolio-project="web", hide others.
+	$("#web").click(function(){
+		$('li[data-portfolio-project="web"]').removeClass("dim");
+		$('li[data-portfolio-project="graphic"]').addClass("dim");
+		$('li[data-portfolio-project="art"]').addClass("dim");
+	});
+	// Show all with data-portfolio-project="graphic", hide others.
+	$("#graphic").click(function(){
+		$('li[data-portfolio-project="graphic"]').removeClass("dim");
+		$('li[data-portfolio-project="web"]').addClass("dim");
+		$('li[data-portfolio-project="art"]').addClass("dim");
+	});
+	// Show all with data-portfolio-project="art", hide others.
+	$("#art").click(function(){
+		$('li[data-portfolio-project="art"]').removeClass("dim");
+		$('li[data-portfolio-project="web"]').addClass("dim");
+		$('li[data-portfolio-project="graphic"]').addClass("dim");
+	});
 });
 
 
