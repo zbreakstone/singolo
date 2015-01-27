@@ -36,3 +36,10 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(e) {
+            
+	$('header.top-header ul li a').bind('click', function(e) {
+	    e.preventDefault();
+	    $('html,body').animate({scrollTop: $(this.hash).offset().top - 0}, 300);                                                         
+	});
+});

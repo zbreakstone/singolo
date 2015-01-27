@@ -5,7 +5,18 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Uncomment for ScrollSpy
+	<script>
+		$(document).ready(function () {
+			$('body').attr({
+				'data-spy': "scroll",
+				'data-target': "header",
+				'data-offset': "200",
+				'onload': "initialize()"
+			});
+		});
+	</script> -->
 </head>
 <body>
 	<header class="top-header">
@@ -15,11 +26,11 @@
 			</h1>
 			<nav class="top-nav">
 				<ul>
-					<li><a href="#" class="active">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#home" class="active">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -153,7 +164,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="about-section">
+		<section class="about-section" id="about">
 			<div class="container">
 				<h2>About Us</h2>
 				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptas reprehenderit consequuntur? Fugit est quae eos doloremque veritatis quisquam fuga omnis, eveniet. Illo harum, aperiam.</h4>
@@ -214,7 +225,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="contact-section">
+		<section class="contact-section" id="contact">
 			<div class="container">
 				<h2>Get a Quote</h2>
 				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nostrum sit autem fugit, odio facilis in est reiciendis, distinctio! Quos, eligendi, voluptate. Perferendis, est, esse!

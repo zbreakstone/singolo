@@ -50,6 +50,11 @@ header.top-header {
 	height: 96px;
 	max-width: 100%;
 	color: #fff;
+/*	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;*/
 }
 	header.top-header nav {
 			float: right;
