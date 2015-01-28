@@ -487,7 +487,7 @@ main {}
 			h1, h2, h3 { font-weight: 700; line-height: 1em;}
 			h2 { font-size: 30px; }
 			h3 { font-size: 18px; }
-			h4 { font-weight: 100; font-size: 18px; line-height: 30px; }
+			h4 { font-weight: 300; font-size: 18px; line-height: 30px; }
 			p { font-weight: 400; font-size: 12px; line-height: 1.8em; }
 			a { text-decoration: none; color: #666d89;}
 			header.top-header {
@@ -497,12 +497,12 @@ main {}
 				right: 0;
 				z-index: 2;*/
 			}
-			.services-row ul > li {
+			/*.services-row ul > li {
 				width: 100%;
 				display: block;
 				float: left;
 				margin: 40px 0 0 0;
-			}
+			}*/
 			.portfolio-images ul > li {
 				
 				margin: 0;
@@ -510,7 +510,7 @@ main {}
 			.portfolio-images ul > li > img {
 				width: 100%;
 			}
-			.about-row ul.about-list > li {
+			/*.about-row ul.about-list > li {
 				display: block;
 				float: left;
 				width: 100%;
@@ -533,6 +533,11 @@ main {}
 			}
 			.about-item article img {
 				width: 100%;
+			}*/
+
+			.about-row ul.about-list > li {
+				width: calc((100% - 40px) / 3);
+				margin: 0 10px 0 0;
 			}
 			.contact-form {
 				display: block;
