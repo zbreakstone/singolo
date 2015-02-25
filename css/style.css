@@ -360,7 +360,6 @@ main {}
 					}
 					.contact-form textarea.input {
 						height: 200px;
-						overflow-y: scroll;
 						resize: none;
 					}
 				.contact-sidebar {
