@@ -553,75 +553,25 @@ main {}
 
 	}
 	@media (min-width: 768px) and (max-width: 1139px) {
-			h1, h2, h3 { font-weight: 700; line-height: 1rem;}
+			h1, h2, h3 { font-weight: 700; line-height: 1em;}
 			h2 { font-size: 1.66666666666667rem; }
 			h3 { font-size: 1rem; }
-			h4 { font-weight: 100; font-size: 1rem; line-height: 1.66666666666667rem; }
+			h4 { font-weight: 300; font-size: 1rem; line-height: 1.66666666666667rem; }
 			p { font-weight: 400; font-size: 0.66666666666667rem; line-height: 1.2rem; }
 			a { text-decoration: none; color: #666d89;}
 			.container {
 				max-width: 100%;
-				padding: 40px 6.86274509804% 20px;
 			}
-			section .container {
-				padding: 66px 6.252% 71px 6.252%;
-			}	
 			header.top-header {}
-			header.top-header h1 {
-				position: static;
-				float: none;
-			}
-			.logo-section .logo {
-				margin: 0 auto;
-			}
-			header.top-header nav {
-				position: static;
-				float: none;
-				text-align: center;
-				margin: 20px 0 0 0;
-			}
-			header.top-header nav.top-nav ul > li {
-				display: block;
-				width: 100%;
-				margin: 0;
-			}
-			header.top-header nav > ul > li:before {
-				content: '';
-				margin: 0;
-			}
-			.services-row ul > li {
-				width: 100%;
-				display: block;
-				float: left;
-				margin: 40px 0 0 0;
-			}
-			.portfolio-row nav > ul > li {
-				display: block;
-				width: 100%;
-			}
-			.portfolio-row nav > ul > li > a {
-				display: block;
-				width: 100%;
-			}
 			.portfolio-images ul > li {
-					display: block;
-					width: 100%;
-					height: 100%;
-					margin: 0;
+				margin: 0;
 			}
 			.portfolio-images ul > li > img {
-					width: 100%;
+				width: 100%;
 			}
 			.about-row ul.about-list > li {
-				display: block;
-				width: 100%;
-				margin: 0;
-			}
-			.about-item .about-info {
-				margin: 0 0 40px 0;
-			}
-			.about-item:last-child .about-info {
-				margin: 0;
+				width: calc((100% - 40px) / 3);
+				margin: 0 10px 0 0;
 			}
 			.contact-form {
 				display: block;
@@ -636,7 +586,7 @@ main {}
 			.bottom-footer .copyright {
 				width: 100%;
 				text-align: center;
-				margin: 0;
+				margin: 0 0 30px 0;
 			}
 			.bottom-footer .social-icons {
 				display: block;
@@ -644,8 +594,8 @@ main {}
 				text-align: center;
 				position: static;
 			}
-			.bottom-footer .social-icons ul {
-				display: inline-flex;
+			.bottom-footer .social-icons ul > li {
+				float: none;
 			}
 		}
 	@media (min-width: 1280px) {}
