@@ -598,7 +598,11 @@ main {}
 				float: none;
 			}
 		}
-	@media (min-width: 1280px) {}
+	@media (min-width: 1280px) {
+		.class {
+			margin: 0;
+		}
+	}
 
 	/* Responsive Visibilty Classes */
 
