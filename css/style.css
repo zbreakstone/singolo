@@ -648,7 +648,11 @@ main {}
 				display: inline-flex;
 			}
 		}
-	@media (min-width: 1280px) {}
+	@media (min-width: 1280px) {
+		.class {
+			position: static;
+		}
+	}
 
 	/* Responsive Visibilty Classes */
 
