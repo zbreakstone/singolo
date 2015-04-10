@@ -628,7 +628,7 @@ main {}
 		h1, h2, h3 { font-weight: 700; line-height: 1rem;}
 		h2 { font-size: 1.66666666666667rem; }
 		h3 { font-size: 1rem; }
-		h4 { font-weight: 100; font-size: 1rem; line-height: 1.66666666666667rem; }
+		h4 { font-weight: 400; font-size: 1rem; line-height: 1.66666666666667rem; }
 		p { font-weight: 400; font-size: 0.66666666666667rem; line-height: 1.2rem; }
 		a { text-decoration: none; color: #666d89;}
 		.container {
