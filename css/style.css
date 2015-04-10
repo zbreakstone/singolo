@@ -562,7 +562,8 @@ main {}
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			        transform: translate(-50%, -50%);
 		}
 		.contact-form input.input, .contact-form textarea.input {
 			font-size: 0.66666666666667rem;
@@ -664,7 +665,8 @@ main {}
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			        transform: translate(-50%, -50%);
 		}
 		.contact-form input.input, .contact-form textarea.input {
 			font-size: 0.66666666666667rem;
