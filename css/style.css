@@ -424,6 +424,7 @@ main {}
 				.bottom-footer .copyright {
 					display: inline-block;
 					width: 80%;
+					float: left;
 				}
 				.bottom-footer .social-icons {
 					display: inline-block;
